@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charsec="utf-8">
+        <title>web1</title>
+        <style>
+            body {
+                margin: 0;
+            }
+            #current {
+                color: red;
+            }
+            .saw {
+                color: blue;
+            }
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            h1 {
+                text-align: center;
+                font-size: 55px;
+                border-bottom: 2px solid gray;
+                margin: 0;
+                padding: 20px;
+            }
+            ol {
+                border-right: 2px solid gray;
+                width: 150px;
+                margin: 0;
+                padding: 20px;
+            }
+            img {
+                width: 50%;
+            }
+            #grid {
+                display: grid;
+                grid-template-columns: 200px 1fr;
+
+            }
+            #grid #article {
+                padding-left: 25px;
+            }
+            #grid ol {
+                padding-left: 32px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>안주강의 사진</h1>
+        <div id="grid">
+        <ol>
+            <li><a href="오륙도.html" class="saw" id="current">오륙도</a></li>
+            <li><a href="경주.html" class="saw">경주</a></li>
+            <li><a href="index.html" class="saw">처음 화면으로</a></li>
+        </ol>
+            <div id="article">
+                <h2>오륙도</h2>
+                <p>
+                    <img src="오륙도_1.JPG"> 
+                    <br> 최근에 오륙도 산책을 다녀오면서 찍은 사진이다. 부산에 살긴 살았지만 이렇게 바다 가까이 
+                    살았던 적은 처음이다. 
+                    <br>좋긴 좋다. 이 날은 사람들이 엄청 많아서 스카이워크까지는 가지 않았다. 
+                    대신 이기대 쪽으로 산을 타고 쭉 걸어갔다.         
+                </p>
+                <p>
+                    <img src="오륙도_2.JPG">
+                    <br> 이기대쪽으로 걸어가는 데크에서 찍었다. 뭔가 클로즈업된 느낌을 내고 싶었다. 
+                    <br> 원하는 느낌대로 찍힌것 같진 않지만 그래도 바다가 이쁘게 나왔다.
+                </p>
+                <p>
+                    <img src="오륙도_3.JPG"> 
+                    <br> 이기대를 가다가 너무 힘들어 중간에 집으로 가는 길로 탔다. 이 사진은 그 와중에 찍었다. 
+                    <br> 롱패딩을 입었는데 너무 더웠다. 다음에는 제대로 입고 이기대까지 가봐야지. 
+            </p>
+            </div>
+        </div>
+    </body>
+</html>
